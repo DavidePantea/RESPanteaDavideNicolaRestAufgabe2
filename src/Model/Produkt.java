@@ -1,3 +1,5 @@
+package Model;
+
 public class Produkt {
     private String Name;
     private double Price;
@@ -36,7 +38,7 @@ public class Produkt {
 
     @Override
     public String toString() {
-        return "Produkt{" +
+        return "Model.Produkt{" +
                 "Name='" + Name + '\'' +
                 ", Price=" + Price +
                 ", Herrkunftregion='" + Herrkunftregion + '\'' +

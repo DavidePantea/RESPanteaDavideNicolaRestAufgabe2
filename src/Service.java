@@ -1,8 +1,10 @@
 
 
+import Model.Charakter;
+import Model.Produkt;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Predicate;
 
 public class Service {
 

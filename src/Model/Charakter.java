@@ -1,3 +1,7 @@
+package Model;
+
+import Model.Produkt;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,7 +53,7 @@ public class Charakter {
 
     @Override
     public String toString() {
-        return "Charakter{" +
+        return "Model.Charakter{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", Herkunftsdorf='" + Herkunftsdorf + '\'' +
