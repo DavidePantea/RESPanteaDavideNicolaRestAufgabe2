@@ -114,7 +114,17 @@ public class Controller {
             System.out.println(charakter);
     }
 
-
+    public void CharacterNachProductFilter(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Product Name: ");
+        String ort = sc.nextLine();
+        for (Charakter charakter: service.alleCharakterZuruckgeben())
+            for (Produkt produkt : charakter.getProdukten()){
+                if(produkt.getHerrkunftregion().equalsIgnoreCase(ort)){
+                    System.out.println(charakter.getName());
+                }
+            }
+    }
 
 
 }

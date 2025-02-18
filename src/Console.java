@@ -77,7 +77,7 @@ public class Console {
                         case 4: {controller.updateCharacterValidate(); break;}
                         case 5: {controller.deleteCharacter(); break;}
                         case 6: {controller.CharacterNachOrtFiltrieren(); break;}
-                        case 7: {controller.CharacterNachOrtFiltrieren(); break;}
+                        case 7: {controller.CharacterNachProductFilter(); break;}
                         case 8: {controller.CharacterNachOrtFiltrieren(); break;}
                         case 0:break;
                     }
