@@ -117,6 +117,10 @@ public class Console {
         produkte.add(new Produkt("Schattendolch", 180.0, "Konoha"));
         produkte.add(new Produkt("Wasserperle", 90.0, "Kirigakure"));
 
+
+        for (Produkt produkt : produkte){
+            produktRepository.addElement(produkt);
+        }
         // Initialisierung der Charaktere
         List<Charakter> charaktere = new ArrayList<>();
 
@@ -156,5 +160,9 @@ public class Console {
         charaktere.add(c3);
         charaktere.add(c4);
         charaktere.add(c5);
+
+        for (Charakter charakter : charaktere){
+            charakterRepository.addElement(charakter);
+        }
     }
 }
